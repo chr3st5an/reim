@@ -84,11 +84,7 @@ class Reim(object):
         return wort in self.__wörter
     
     def __iter__(self) -> iter:
-        self.__position = 0
         return iter(self.__wörter)
-    
-    def __next__(self) -> str:
-        return self[self.__position]
     
     @property
     def reime(self) -> List[str]:
