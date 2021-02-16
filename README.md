@@ -5,8 +5,8 @@ Eine Anwendung mit der man Reimwörter eines gesuchten Wortes finden kann.
 ### Terminal Benutzung 
 ---
 Das Programm kann als Terminal Anwendung benutzt werden. Die Benutzung sieht
-wie folgt aus: \n
-`python reim.py < Wort | -h | --help > [-a | --all]` \n
+wie folgt aus: 
+`python reim.py < Wort | -h | --help > [-a | --all]` 
 Nach der Suche von Reimwörtern von "Haus" wird das folgende Ergebniss an-
 gezeigt:
 `<Reim Objekt; gefunden=35; Reime=('maus', 'raus', 'laus', 'haus', 'gaus')>`
